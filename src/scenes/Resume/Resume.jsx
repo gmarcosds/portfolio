@@ -11,7 +11,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const resumeLink =
-  'https://raw.githubusercontent.com/vsnaichuk/vsnaichuk/master/CV.pdf';
+  'https://github.com/gmarcosds/CV/blob/main/Gabriel%20Marcos%20da%20Silva%20(2023)%20International%20Resum%C3%A9.pdf';
 
 const Resume = () => {
   const pdfWrapper = useRef(null);

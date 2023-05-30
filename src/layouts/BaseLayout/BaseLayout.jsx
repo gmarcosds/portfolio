@@ -15,7 +15,7 @@ const BaseLayout = ({ children }) => {
 
       <div className={s.container}>{children}</div>
 
-      <Footer />
+      
     </div>
   );
 };

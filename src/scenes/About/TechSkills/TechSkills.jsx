@@ -3,9 +3,13 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
+  DiJava,
   DiGit,
-  DiSass,
+  DiPython,
+  DiHtml5,
+  DiCss3,
+  DiWordpress,
+  DiGithubBadge,
 } from 'react-icons/di';
 import {
   SiTypescript,
@@ -30,22 +34,22 @@ const TechSkills = () => {
         <DiReact />
       </li>
       <li className={s.techIcon}>
-        <DiMongodb />
+        <DiJava />
       </li>
       <li className={s.techIcon}>
-        <DiSass />
+        <DiPython />
       </li>
       <li className={s.techIcon}>
-        <SiAmazonaws />
+        <DiHtml5 />
       </li>
       <li className={s.techIcon}>
-        <SiRedux />
+        <DiCss3 />
       </li>
       <li className={s.techIcon}>
-        <SiSocketdotio />
+        <DiGithubBadge />
       </li>
       <li className={s.techIcon}>
-        <DiGit />
+        <DiWordpress />
       </li>
     </ul>
   );
