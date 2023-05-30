@@ -1,7 +1,6 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://gmarcosds.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "classnames": "^2.3.2",
